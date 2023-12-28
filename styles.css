@@ -1,0 +1,108 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#output {
+    margin-top: 30px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+label {
+    font-family: 'Comfortaa', sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    font-family: 'Comfortaa', sans-serif;
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="range"],
+#generateBtn,
+#copyBtn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="range"]:hover,
+#generateBtn:hover,
+#copyBtn:hover {
+    background-color: #2980b9;
+}
+
+/* Стилі для чекбоксів */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Стилі для контейнера з чекбоксами та мітками */
+div > input[type="checkbox"],
+div > label {
+    font-family: 'Comfortaa', sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#lengthSlider {
+    width: 80%;
+    max-width: 350px;
+}
+
+/* Чекбокси */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2980b9;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #2980b9;
+}
